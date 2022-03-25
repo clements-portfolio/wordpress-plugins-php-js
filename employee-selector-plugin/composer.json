@@ -1,0 +1,17 @@
+{
+  "name": "sccdomain/employeeselector",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-only",
+  "description": "Sample Employee Selector Plugin",
+  "homepage": "http://github.com/developclementine",
+  "authors": [
+    {
+      "name": "Steven Clements",
+      "email": "clements.steven7@gmail.com"
+    }
+  ],
+  "require": {
+		"php": ">=7.1.0",
+		"composer/installers": "~1.0"
+	},
+}

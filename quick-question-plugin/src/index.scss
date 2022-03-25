@@ -1,0 +1,78 @@
+.questionEditor {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  background-color: #eaecff;
+  color: #333;
+  font-size: 1.2rem;
+  font-family: "Georgia";
+}
+
+.questionFlex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.questionMargin {
+  padding-left: 3rem;
+}
+
+.mainIcon {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.answerDefault {
+  color: rgb(119, 119, 228);
+  font-size: 2rem;
+  margin: 0 0.5rem;
+
+  &:hover {
+    color: rgb(94, 94, 223);
+    transform: scale(1.05);
+  }
+}
+
+.answerCorrect {
+  color: green;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+
+  &:hover {
+    color: rgb(3, 95, 3);
+    transform: scale(1.05);
+  }
+}
+
+.answerWrong {
+  color: red;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+
+  &:hover {
+    color: rgb(129, 5, 5);
+    transform: scale(1.05);
+  }
+}
+
+.answerDelete {
+  color: red;
+
+  &:hover {
+    color: rgb(129, 5, 5);
+    transform: scale(1.05);
+  }
+}
+
+.hintHidden {
+  display: none;
+}
+
+.hintShown {
+  display: block;
+}
+
+.buttonMargin {
+  margin-right: 1rem;
+}

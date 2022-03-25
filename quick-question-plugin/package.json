@@ -1,0 +1,16 @@
+{
+  "name": "scc-quick-question-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build src/index.js src/public.js",
+    "start": "wp-scripts start src/index.js src/public.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "^19.2.2"
+  }
+}
